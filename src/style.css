@@ -25,6 +25,7 @@ h2{
 [dark] {
    --var-bgcolor: #333;
    --var-fontcolor: #D8E2DA;
+   --var--bgfooter: #BAC8C0;
 }
 
 body {
@@ -61,13 +62,14 @@ h3{
    display: flex;
    flex-direction: column;
    margin-top: 20px;
-   margin-bottom: 30px;
+   margin-bottom: 70px;
 }
 
 .about__me{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 190px;
 }
 .about__me img{
    margin-right: 40px;
@@ -92,6 +94,19 @@ h3{
 
 .portfolio h3{
    margin: 30px 0;
+}
+.footer{
+   background: var(--var--bgfooter);
+   --var--bgfooter: #758285;
+}
+.footer__container{
+   max-width: 1300px;
+   margin: 0 auto;
+   text-align: center;
+}
+.contacts{
+   display: flex;
+   justify-content: space-around;
 }
 .lb1 {      
    margin: 2em;
