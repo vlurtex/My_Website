@@ -118,6 +118,7 @@ h3{
    transition: all .3s;
 }
 #highload1+.lb1 {
+   border: 1px solid gray;  
    display: inline-block;
    position: relative;
    width: 60px;
@@ -131,9 +132,6 @@ h3{
    position: absolute;
    top: 8px;
    right: 10px;
-   color: black;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 15px;
 }
 #highload1+.lb1::after {
    border-radius: 50%;
@@ -143,24 +141,23 @@ h3{
    left: 3px;
    width: 24px;
    height: 24px;
-   background-color: white;          
+   background-color: white;
 }
 #highload1:checked+.lb1::before {
    content: attr(data-onlabel);
    left: 16px;
    right: auto;
-   color: #fff;
 }
 #highload1:checked+.lb1::after {
    left: 33px;
-   background-color: #f7f7f7;
+   background-color: black;
 }
 
 #highload1+.lb1 {             
-   background-color: #ccc;
+   background-color: gray;
 }
 #highload1:checked+.lb1 {
-   background-color: green;
+   background-color: white;
 }
 #highload1:checked+.lb1::before {
    color: #fff;
