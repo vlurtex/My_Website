@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container">
+         <div class="logo">
+            <a href="https://github.com/vlurtex" target="_blank"><img height="50" width="50" src="img/github-mark.svg"
+                  alt="github"></a>
+         </div>
+         <label>
+            <input type="checkbox" onchange="changeTheme(this.checked)">Theme
+         </label>
+      </div>
+   </header>
+   <main class="main">
+      <div class="main__container">
+         <div class="greetings">
+            <h1>Welcome!</h1>
+            <span>Here you will see information about me and my projects.<span>
+         </div>
+         <div class="about">
+            <h2>About me</h2>
+            <div class="about__me">
+               <img height="300px" src="img/98977938.jpg" alt="My Logo">
+               <span>My name is Vladislav Oleynik.
+                  Junior Frontend developer. 20 years old.<br> <br>I am fond of developing web applications
+                  and layout. Learning Frontend for the third year.</span>
+            </div>
+         </div>
+         <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+               <li><span>HTML 5</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px">
+               </li>
+               <li><span>CSS3/SCSS/SASS</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px"></li>
+               <li><span>Figma/Photoshop</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px"></li>
+               <li><span>Javascript(ES6)</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px"></li>
+               <li><span>React.js</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px">
+               </li>
+               <li><span>English</span><img src="img/Tick_Mark_Circle_icon-icons.com_69145.svg" height="40px"
+                     width="40px">
+               </li>
+            </ul>
+         </div>
+         <div class="portfolio">
+            <h2>My portfolio</h2>
+            <div class="js-featured">
+               <h3>Easy Javascript Features:</h3>
+               <h3><a href="DragNDrop/index.html" target="_blank">Drag & Drop</a></h3>
+               <h3><a href="Double_Slider/index.html" target="_blank">Double Slider</a></h3>
+               <h3><a href="Color_Board/index.html" target="_blank">Color Board</a></h3>
+            </div>
+            <div class="js-game">
+               <h3>Games on Javascript:</h3>
+               <h3><a target="_blank" href="Aim_Training/index.html">Aim Trainig</a> </h3>
+               <h3><a href="Snake/index.html" target="_blank">Snake</a></h3>
+               <h3><a href="tetris/index.html" target="_blank">Tetris</a></h3>
+            </div>
+         </div>
+      </div>
+   </main>
+   <script src="src/app.js"></script>
+</body>
+
+</html>
