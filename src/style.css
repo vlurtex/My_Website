@@ -97,7 +97,7 @@ h3{
 }
 .footer{
    background: var(--var--bgfooter);
-   --var--bgfooter: #758285;
+   --var--bgfooter: #758284;
 }
 .footer__container{
    max-width: 1300px;
